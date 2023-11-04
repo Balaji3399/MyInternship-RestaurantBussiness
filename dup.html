@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .subscription-form {
+      text-align: center;
+      padding: 20px;
+  }
+  
+  h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+  }
+  
+  form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  input[type="email"] {
+      width: 50%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px 0 0 5px; /* Rounded left edge */
+  }
+  
+  button {
+      background-color: red; /* Netflix's color */
+      color: white;
+      padding: 10px;
+      border: 1px solid red; /* Match input border */
+      border-radius: 0 5px 5px 0; /* Rounded right edge */
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: #E50914; /* Hover color */
+  }
+  
+  
+  </style>
+</head>
+<body>
+  <div class="subscription-form">
+    <h1>Subscribe to Netflix</h1>
+    <form action="" method="post">
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <button type="submit">Subscribe Now</button>
+    </form>
+</div>
+</body>
+</html>

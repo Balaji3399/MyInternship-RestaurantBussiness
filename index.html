@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoyalSpice</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/d63b211e4f.js" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color: black;">
+    <section id="main">
+        <div class="background">
+        </div>
+        <nav id="nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="list">
+                <ul type="none">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Reserve</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <button class="side-open" onclick="open_sidebar()"><i class="fa-solid fa-bars"></i></button>
+
+            <div class="side-bar">
+                <button class="close" onclick="close_sidebar()"><i class="fa-regular fa-circle-xmark"></i></button>
+                <ol type="none">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Reserve</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ol>
+            </div>
+        </nav>
+
+        <div class="experience">
+            <div class="quote">
+                <p><strong><b>"Discover the Art of Royal Flavors."</b></strong></p>
+            </div>
+            <div class="taste">
+                <h4>RoyalSpice Provides You ,</h4>
+                <p><strong><i>The Best Tasting Experience!</i></strong>
+                <br><button class="reservebtn">Order Now</button>
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="about-heading">About Us</h2>
+        <div class="about-details">
+            <div class="about-info">
+                <img class="about-logo" src="./images/logo.png" alt="">
+                <div class="about-story-cuisine">
+                    <div class="story">
+                        <h2 class="text-center">Our Story</h2>
+                        <p>
+                            At RoyalSpice, we believe that every meal is an opportunity to create cherished memories. Our journey began with a passion for the rich and diverse flavors of Indian cuisine. We set out to offer our patrons an authentic taste of India in a setting that radiates warmth and elegance.
+                        </p>
+                    </div>
+                    <div class="cuisine">
+                        <h2 class="text-center">Our Cuisine</h2>
+                        <p>
+                            Our kitchen is a realm of creativity and tradition, where our expert chefs masterfully craft each dish using time-honored recipes and the freshest ingredients. From the sizzling tandoori delights to the fragrant curries and sumptuous biryanis, our menu is a gastronomic journey through the subcontinent.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="whyus">
+                <h3 class="why-special">Why We are Special ?</h3>
+                <div class="special-boxes">
+                    <div class="whyus-box">
+                        <p>
+                            <span><h4 class="text-left">Indian Flavours</h4></span> <br>
+                            At RoyalSpice, we take pride in serving truly authentic Indian cuisine, prepared with traditional recipes and genuine Indian spices.
+                        </p>
+                    </div>
+                    <div class="whyus-box">
+                        <p>
+                            <span><h4 class="text-left">Elegant Ambience</h4></span> <br>
+                            The restaurant's ambiance offers a blend of elegance and comfort. Whether you're looking for a romantic dinner setting or a relaxed family gathering, our welcoming atmosphere caters to various occasions.
+                        </p>
+                    </div>
+                    <div class="whyus-box">
+                        <p>
+                            <span><h4 class="text-left">Friendly and knowledgeable Staff</h4></span> <br>
+                            Our staff is dedicated to providing an exceptional dining experience. They are well-versed in our menu offerings and are always ready to assist and guide you through your culinary journey.
+                        </p>
+                    </div>
+                    <div class="whyus-box">
+                        <p>
+                            <span><h4 class="text-left">Customizable Spice Levels</h4></span> <br>
+                            We understand that everyone has their own preference when it comes to spice levels. At RoyalSpice, you have the freedom to customize the heat in your dishes. 
+                        </p>
+                    </div>
+                    <div class="whyus-box">
+                        <p>
+                            <span ><h4 class="text-left">Specialty Dishes</h4></span> <br>
+                             We offer a selection of specialty dishes unique to RoyalSpice. These are chef's creations that you won't find anywhere else. 
+                        </p>
+                    </div>
+                    <div class="whyus-box">
+                        <p>
+                            <span><h4 class="text-left">Sustainable and Local Sourcing</h4></span> <br>
+                             At RoyalSpice, we are committed to sustainability and supporting local communities. We source many of our ingredients locally, ensuring freshness and reducing our environmental footprint.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="services-heading">Our Services</h2>
+        <div class="services container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
+                    <div class="service item1">
+                        <img src="https://www.mashed.com/img/gallery/secrets-fine-dining-restaurants-dont-want-you-to-know-upgrade/intro-1654801230.jpg" alt="">
+                        <div class="content">
+                            <h3><b><i>Dine-In</i></b></h3>
+                            <p>Enjoy an exquisite dining experience in our welcoming restaurant. Immerse yourself in our cozy ambiance as you savor our chef's culinary creations. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
+                    <div class="service item2">
+                        <img src="https://www.rochesterfirst.com/wp-content/uploads/sites/66/2020/03/delivery_takeout_rochester_32320.jpg" alt="">
+                        <div class="content">
+                            <h3><b><i>Takeaway or Delivery</i></b></h3>
+                            <p>Can't make it to our restaurant? No worries! Take advantage of our convenient takeout or delivery service. Indulge in your favorite dishes from the comfort of your home or office. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
+                    <div class="service item3">
+                        <img src="https://images.tristatetechnology.com/blog-images/uploads/2018/01/Online-Ordering-app-A.jpg" alt="">
+                        <div class="content">
+                            <h3><b><i>Order Online</i></b></h3>
+                            <p>Experience the convenience of ordering your favorite meals with a simple phone call. Browse our menu, make your selections, and place your order for pickup or delivery over the phone. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="specials">
+        <h2 class="specials-heading">Today's Special</h2>
+        <div class="container">
+            <div class="card-slider">
+              <div class="card">
+                <img class="special-item" style="width: 100%;" src="./images/special1.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p>Chocolate Ice Cream <br> &#8377;<span class="price"> 600 </span> </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="special-item" style="width: 45%; margin-left:25%" src="./images/special2.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p>Mixed Shake <br> &#8377;<span class="price"> 200 </span> </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="special-item" style="width: 100%;" src="./images/special3.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p>Special Noodles <br> &#8377;<span class="price"> 300 </span> </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="special-item" style="width: 100%;margin-left:0px" src="./images/special10.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p>grilled fish <br> &#8377;<span class="price">200</span> </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="special-item" style="width: 90%;" src="./images/special5.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p>spicy fish  <br> &#8377;<span class="price">350</span> </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="special-item" style="width: 90%;" src="./images/special6.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p> Roasted chicken <br> &#8377;<span class="price">250</span> </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="special-item" style="width: 100%;" src="./images/special7.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p>Hamburger <br> &#8377;<span class="price">200</span> </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="special-item" style="width: 100%;" src="./images/special8.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p>Cheese Pizza <br> &#8377;<span class="price">400</span> </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="special-item" style="width: 100%;" src="./images/special9.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p>Spicy Pizza <br> &#8377;<span class="price">300</span> </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="special-item" style="width: 100%;" src="./images/special10.png" alt="">
+                <div class="content">
+                    <img class="logo" style="width: 35%; height: 70%" src="./images/logo.png" alt="">
+                    <p>grilled fish <br> &#8377;<span class="price">200</span> </p>
+                </div>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="control-button" id="prev">Previous</button>
+              <button class="control-button" id="next">Next</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews">
+            <h2 class="specials-heading">Recent Reviews</h2>
+            <div class="container">
+                <div class="card-slider review">
+                    <div class="card">
+                        <div class="image-container">
+                            <img style="width: 60%;" src="./images/men-review.png" alt="Sea Moss Review">
+                        </div>
+                        <div class="text">
+                            <p class="stars">★ ★ ★ ★ ★</p>
+                            <p class="review">"I had an amazing dining experience at RoyalSpice! The ambiance was cozy, and the food was simply divine. The flavors were perfectly balanced, and the staff provided excellent service. I can't wait to return!"</p>
+                            <p><span style="font-size: 1.5rem; color:green">&#x2713;</span> &nbsp; Recent customer </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-container">
+                            <img style="width: 55%;" src="./images/review-5.png" alt="Sea Moss Review">
+                        </div>
+                        <div class="text">
+                            <p class="stars">★ ★ ★ ★</p>
+                            <p class="review-text">"RoyalSpice is a hidden gem! The dishes are bursting with authentic flavors, and the presentation is top-notch. The staff was attentive, and the overall atmosphere was delightful. I highly recommend the lamb curry."</p>
+                            <p><span style="font-size: 1.5rem; color:green">&#x2713;</span> &nbsp; Recent customer </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-container">
+                            <img style="width: 40%;" src="./images/women-review3.png" alt="Sea Moss Review">
+                        </div>
+                        <div class="text">
+                            <p class="stars">★ ★ ★ ★ ★</p>
+                            <p class="review">"I celebrated my anniversary at RoyalSpice, and it was a memorable evening. The restaurant has a romantic ambiance, and the food was exceptional. The chef's special was a delight, and the service was impeccable."</p>
+                            <p><span style="font-size: 1.5rem; color:green">&#x2713;</span> &nbsp; Recent customer </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-container">
+                            <img style="width: 60%;" src="./images/men-review5.png" alt="Sea Moss Review">
+                        </div>
+                        <div class="text">
+                            <p class="stars">★ ★ ★ ★</p>
+                            <p class="review">"A visit to RoyalSpice is always a treat! The menu offers a wide variety of dishes, and each one is a culinary masterpiece. Whether you're a vegetarian or a meat lover, you'll find something to satisfy your palate. The tandoori chicken was particularly mouthwatering!"</p>
+                            <p><span style="font-size: 1.5rem; color:green">&#x2713;</span> &nbsp; Recent customer </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="./images/women-review4.png" alt="Sea Moss Review">
+                        </div>
+                        <div class="text">
+                            <p class="stars">★ ★ ★ ★ ★</p>
+                            <p class="review">"RoyalSpice exceeded my expectations! The food was not only delicious but also beautifully presented. The staff was friendly and knowledgeable, making excellent recommendations. This is now one of my favorite places to enjoy Indian cuisine."</p>
+                            <p><span style="font-size: 1.5rem; color:green">&#x2713;</span> &nbsp; Recent customer </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="control-button" id="prev1">Previous</button>
+                    <button class="control-button" id="next1">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <div class="mail-logo-container">
+                    <img style="width: 25%;" src="./images/mail-logo.png" alt="">
+                </div>
+                <div class="newsletter-details">
+                    <h1 class="text-center">News letter</h1>
+                    <h2>Stay Updated with RoyalSpice</h2>
+                    <p>Subscribe to our newsletter and be the first to know about our latest promotions, special events, and mouthwatering dishes.</p>
+                    <div class="subscription-form">
+                        <form>
+                            <input class="subscribe-input" type="email" name="email" placeholder="Your Email Address" required>
+                            <button class="newsletter-subscribe" type="button" onclick="openPopupSubscribe()" >Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <section id="contact" class="contact">
+            <h2 class="specials-heading">Contact Us</h2>
+            <div class="contact-details">
+                <div class="our-details">
+                    <img  src="https://cdn.vox-cdn.com/thumbor/HspzByLOfcnF9fDwuzpD7yDRLwg=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23656443/TFK_The_Falls_Wide_Interior.jpg" alt="">
+                </div>
+                <div class="form-details">
+                    <h2 style="font-family: cursive;color: #f7dbc7;">Get In Touch</h2>
+                    <p style="font-family: 'Times New Roman', Times, serif; color:#9e4c11;font-size:1.4rem">Order By Phone <br> +91 6288667799</p>
+                    <h2 style="margin-bottom: 30px; font-family:'Cambria Math' ; color:green">Reserve Your Table Now ,</h2>
+                    <form action="">
+                        <input type="text" placeholder="First Name"> 
+                        <input type="text" placeholder="Second Name"> <br>
+                        <input type="email" placeholder="Enter Your Email"> <br>
+                        <input  placeholder="Mobile (+ 91)"> <br>
+
+                        <p class="persons">no. of persons :</p>
+                        <select name="" id="">
+                            <option selected value="select">select</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+
+                        </select>
+                        
+                    </form>
+
+                    <button type="button" class="reservebtn" onclick="openPopupReserve()">Reserve</button>
+                </div>
+            </div>
+          </section>
+
+          <div class="popup-container newsletter" id="popupContainerSubscribe">
+            <div class="popup-content">
+                <span><i class="fa-solid fa-circle-check fa-beat"></i></span>
+                <p><b>Success <br> Now , You Will receive Updates from us</b></p>
+                <button class="btn" onclick="closePopupSubscribe()">Done</button>
+            </div>
+        </div>
+    
+        <div class="popup-container reserve" id="popupContainerReserve">
+            <div class="popup-content" >
+                <span><i class="fa-solid fa-circle-check fa-beat"></i></span>
+                <p><b>Booked Successfully <br> You will receive the details in your mail shortly. </b></p>
+                <button class="btn" onclick="closePopupReserve()">Done</button>
+            </div>
+        </div>
+
+
+
+            <footer class="footer-section">
+                <div class="container">
+                    <div class="footer-cta pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="cta-text">
+                                        <h4>Find us</h4>
+                                        <span>12-238 , majestic , Banglore </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="fas fa-phone"></i>
+                                    <div class="cta-text">
+                                        <h4>Call us</h4>
+                                        <span>+91 6288667799</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="far fa-envelope-open"></i>
+                                    <div class="cta-text">
+                                        <h4>Mail us</h4>
+                                        <span>royalspice@info.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-content pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="./images/logo.png" class="img-fluid" alt="logo"></a>
+                                    </div>
+                                    <div class="footer-text">
+                                        <p>Our commitment to excellence is unwavering, with a team of skilled chefs who craft each dish with precision and artistry. Whether you're a connoisseur of classic favorites or an adventurous food explorer, RoyalSpice has something to delight every palate.</p>
+                                    </div>
+                                    <div class="footer-social-icon">
+                                        <span>Follow us on:</span>
+                                        <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                        <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                        <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3>Useful Links</h3>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#about">about</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                        <li><a href="#about">About us</a></li>
+                                        <li><a href="#services">Our Services</a></li>
+                                        <li><a href="#contact">Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3>Subscribe</h3>
+                                    </div>
+                                    <div class="footer-text mb-25">
+                                        <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                    </div>
+                                    <div class="subscribe-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Email Address">
+                                            <button><i class="fab fa-telegram-plane"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                                <div class="copyright-text">
+                                    <p>Copyright &copy; 2018, All Right Reserved <a href="#">RoyalSpice</a></p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#services">services</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                        <li><a href="#">Policy</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+
+    <script src="https://unpkg.com/scrollreveal"></script> 
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2000,
+        });
+
+        ScrollReveal().reveal('nav', { delay: 100, origin: 'top' });
+        ScrollReveal().reveal('.quote', { delay: 1000, origin: 'bottom' });
+        ScrollReveal().reveal('.items', { distance: '80px' , delay: 400, origin: 'bottom' });
+        ScrollReveal().reveal('.item', { distance: '80px' , delay: 400, origin: 'bottom' });
+        ScrollReveal().reveal('.services-heading', { distance: '100px',delay: 800, origin:'top' });
+        ScrollReveal().reveal('.experience', { delay: 600, origin: 'top' });
+        ScrollReveal().reveal('.services', { delay: 600, origin: 'bottom' });
+        ScrollReveal().reveal('.background', { delay: 200 , distance:'100px', origin: 'bottom' });
+        ScrollReveal().reveal('.about', { delay: 300 , distance:'100px', origin: 'bottom' });
+        ScrollReveal().reveal('.contact', { delay: 300 , origin: 'bottom' });
+        ScrollReveal().reveal('footer', { delay: 400 ,distance:'100px', origin: 'bottom' });
+        ScrollReveal().reveal('.newsletter', { delay: 400 ,distance:'100px', origin: 'bottom' });
+        ScrollReveal().reveal('.reviews', { delay: 400 ,distance:'100px', origin: 'bottom' });
+        ScrollReveal().reveal('.specials', { delay: 400 ,distance:'100px', origin: 'bottom' });
+        ScrollReveal().reveal('.story', { delay: 600 , distance:'100px' , origin: 'top' });
+        ScrollReveal().reveal('.cuisine', { delay: 600 ,distance:'100px', origin: 'left' });
+        ScrollReveal().reveal('.whyus-box', { delay: 600 ,distance:'150px', origin: 'top' });
+        ScrollReveal().reveal('.specials .card', { delay: 600 ,distance:'500px', origin: 'right' });
+        ScrollReveal().reveal('.reviews .card', { delay: 600 ,distance:'500px', origin: 'right' });
+
+
+
+    </script> 
+
+    <script>
+
+        function openPopupSubscribe() {
+            const popupContainer = document.querySelector("#popupContainerSubscribe");
+            popupContainer.style.display = 'block';
+          }
+
+          function openPopupReserve() {
+            const popupContainer = document.querySelector("#popupContainerReserve");
+            popupContainer.style.display = 'block';
+          }
+        
+          function closePopupSubscribe() {
+            popupContainer = document.querySelector("#popupContainerSubscribe") ; 
+            popupContainer.style.display = 'none';
+          }
+
+          function closePopupReserve() {
+            popupContainer = document.querySelector("#popupContainerReserve") ; 
+            popupContainer.style.display = 'none';
+          }
+    </script>
+    
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
